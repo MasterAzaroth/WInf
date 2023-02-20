@@ -1,0 +1,190 @@
+/* setting variables for the different colors */
+:root {
+  --bg-color: #1C1C1C;
+  --font-color: #FDFDFD;
+  --navbar-hover: #CFCFCF;
+  --button-bg-color: #A0A0A0;
+  --button-hover: #808080;
+}
+
+/* generel font and background style */
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  font-family: Arial, sans-serif;
+}
+
+/* sizing the website logo */
+.logo-and-name img {
+  width: 100px;
+  height: 100px;
+}
+
+/* sizing the website name */
+.logo-and-name h1 {
+  font-size: 40px;
+  float: right;
+  margin-right: 925px;
+}
+
+/* position the welcome text */
+#welcome {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+/* styling the quote generating button */
+#button-randomizer {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: var(--button-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* changing the background color when hovering over the quote generating button */
+#button-randomizer:hover {
+  background-color: var(--button-hover);
+}
+
+/* scaling the navigation bar */
+.navigation-bar {
+  height: 50px;
+}
+
+/* positioning the navigation bar */
+.navigation-bar ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+/* aligning navigation bar items horizontally */
+.navigation-bar ul li {
+  display: inline;
+  margin: 20px;
+}
+
+/* stripping styling from hyperlinks */
+.navigation-bar ul li a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: 20px;
+}
+
+/* changing font color when hovering over navigation bar items */
+.navigation-bar ul li a:hover {
+  color: var(--navbar-hover);
+}
+
+/* scaling and positioning the quote container in the middle */
+#image-container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 12px;
+}
+
+/* styling the download button */
+#button-download {
+  background-color: var(--button-bg-color);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 818px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+/* resizing the download button image */
+#button-download img {
+  width: 30px;
+  height: 30px;
+}
+
+/* changing background color when hovering over download button */
+#button-download:hover {
+  background-color: var(--button-hover);
+}
+
+#list a {
+  /* text-decoration: none; */
+  color: var(--font-color);
+}
+
+/* positioning the philosophers name */
+.figure {
+  display: flex;
+  justify-content: center;
+}
+
+/* styling the biography */
+.biography {
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  width: 600px;
+  margin: auto;
+}
+
+/* styling the horizontal line emphasizing the quote */
+.quote-horizontal-line {
+  border: 1px solid var(--font-color);
+  width: 600px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+.menu-align {
+  margin-top: -20px;
+}
+
+#figure-display img {
+  width: 350px;
+  height: 350px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.unit {
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+
+
+/* 
+list of ids:
+- welcome (Randomizer.html)
+- button-randomizer (Randomizer.html)
+- button-download (Randomizer.html)
+- image-container (Randomizer.html)
+- figure-display (PhilosophersCorner.html)
+
+list of classes:
+- logo-and-name (Randomizer.html / PhilosophersCorner.html / MarcusAurelius.html / FriedrichNietzsche.html / Aristotle.html)
+- navigation-bar (Randomizer.html / PhilosophersCorner.html / MarcusAurelius.html / FriedrichNietzsche.html / Aristotle.html)
+- figure (MarcusAurelius.html / FriedrichNietzsche.html / Aristotle.html)
+- biography (MarcusAurelius.html / FriedrichNietzsche.html / Aristotle.html)
+- literature (MarcusAurelius.html / FriedrichNietzsche.html / Aristotle.html)
+- quote-horizontal-line (MarcusAurelius.html / FriedrichNietzsche.html / Aristotle.html)
+- menu-align
+- row
+- unit
+*/
